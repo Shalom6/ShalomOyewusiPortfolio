@@ -1,0 +1,70 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shalom's Portfolio - Home</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+<header>
+    <nav>
+        <h1>My Official Portfolio Website</h1>
+        <div class="hamburger" onclick="toggleMenu()">
+        </div>
+        <ul class="nav-links" id="navLinks">
+
+            <!--<li><a href="index.html">Home</a></li>-->
+
+            <li class="dropdown">
+                <a href="#">More</a>
+                <ul class="dropdown-menu">
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </li>
+
+            <!--<li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+
+        </ul>
+    </nav>
+
+</header>
+
+<section class="hero-squarespace">
+    <div class="hero-bg">
+        <img src="water%20drop.jpg" alt="Hero Image" class="hero-image" />
+        <div class="overlay"></div>
+    </div>
+    <div class="hero-content">
+        <!-- Words on top of image -->
+        <h1>Shalom Oyewusi</h1>
+        <p>An upcoming Software Devloper with the passion to learn and create</p>
+        <!-- Button link to projects page -->
+        <button onclick="location.href='projects.html'">See my Projects</button>
+    </div>
+</section>
+
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>My name is Shalom Oyewusi and I am a 3rd year Computer Science major at the university of Saskatchewan.</p>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <h3>Email: damolaso@hotmail.com</h3>
+    <h3>Github: <a href="https://github.com/Shalom6"> GitHub Link</a> </h3>
+
+</section>
+
+<!--<footer>
+    <p>&copy; 2025 Oyewusi Technology Solutions. All rights reserved.</p>
+</footer> -->
+
+<script src="MainScript.js"></script>
+</body>
+</html>
